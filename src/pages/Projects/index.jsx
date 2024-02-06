@@ -56,7 +56,7 @@ const Title = styled.div`
     }
 `;
 
-const Description = styled.p`
+const Description = styled.div`
     font-size: 20px;
     text-align: center;
 
