@@ -80,7 +80,7 @@ const Skills = () => {
                         <InnerBox>
                             <h1 className="flex"><FaCss3Alt className="text-7xl ml-5 mr-5 text-green-300" /><span className="text-lg mt-10"> : CSS</span></h1>
                             <ul>
-                                <li className="m-3"> - Node.js가 작동하는 법에 대해 이해하고 있습니다.</li>
+                                <li className="m-3"> - Tailwind 및 styledComponent를 사용할 수 있습니다.</li>
                                 <li className="m-3"> - express 프레임워크를 사용하여 Restful API 서버를 만들 수 있습니다.</li>
                                 <li className="m-3"> - 모델, 라우터, 컨트롤러, 서비스를 나누어 구조화된 서버를 만들 수 있습니다.</li>
                             </ul>
