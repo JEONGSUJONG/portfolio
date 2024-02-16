@@ -26,7 +26,6 @@ const InnerBox = styled.div`
     height: auto;
     color: white;
     border: 2px solid rgb(74, 222, 128);
-    border-radius: 10px;
     transition: transform 0.3s;
 
     p {

@@ -6,7 +6,7 @@ const Home = () => {
     const textShadowStyle = { textShadow: "0 0 10px rgba(74, 222, 128, 1.0)" };
     const opacity = useScrollOpacity();
     const [text] = useTypewriter({
-        words: ['BACKEND', 'JUNIOR'],
+        words: ['JUNIOR', 'BACKEND'],
         loop: {},
         typeSpeed: 120,
         deleteSpeed: 100,
@@ -25,7 +25,7 @@ const Home = () => {
         >
             <div className="text-white" style={{ opacity: opacity }}>
                 <div className="text-box">
-                    <h1 className="text-lg" style={textShadowStyle}>Thanks to visit !</h1>
+                    <h1 className="text-lg" style={textShadowStyle}>Thanks to visit my portfolio !</h1>
                     <h1 className="mt-6 text-bold text-6xl">
                         I'M {" "}
                         <span className="text-bold text-green-400" style={textShadowStyle}>

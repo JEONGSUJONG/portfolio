@@ -12,7 +12,7 @@ const Container = styled.div`
 
 const ProjectBox = styled.div`
     position: relative;
-    margin: 5px;
+    margin: 1px;
     width: 35%;
     height: 400px;
     display: flex;
@@ -36,7 +36,7 @@ const Overlay = styled.div`
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: white;
     color: white;
     display: flex;
     flex-direction: column;
@@ -48,9 +48,10 @@ const Overlay = styled.div`
 
 const Title = styled.div`
     font-size: 40px;
-    color: rgb(134 239 172);
+    color: green;
     text-align: center;
-
+    font-weight: bold;
+    
     p {
         font-size: 15px;
     }
@@ -59,18 +60,20 @@ const Title = styled.div`
 const Description = styled.div`
     font-size: 20px;
     text-align: center;
+    color: black;
+    font-weight: bold;
 
     p {
-        padding: 10px;
-        font-size: 16px;
+        font-weight: solid;
+        padding: 15px;
+        font-size: 17px;
         text-align: center;
     }
 `;
 
 const Link = styled.a`
-    color: white;
     text-decoration: underline;
-    color: rgb(134 239 172);
+    color: green;
     text-align: center;
 `;
 
@@ -91,20 +94,23 @@ const Projects = () => {
                     <Image src="/test1.jpg" alt="test" />
                     <Overlay className="overlay">
                         <Title>
-                            『 ShoppingMall 』
-                            <p>2024.01 ~ 2024.02</p>
+                            『 MASIL COFFEE 』
+                            <p>2023.11.13 ~ 2023.12.01</p>
                         </Title>
                         <Description>
                             <br />
                             [ DESCRIPTION ]
-                            <p>대나무 숲에서 아이디어를 얻어 만든 반딧불이의 숲 프로젝트입니다.
-                                익명으로 정보를 쓰고 다른 사람의 정보도 확인 할 수 있는 웹 앱입니다. Firebase를 통해 배포하였고, 약 2주동안 진행하였습니다.</p>
+                            <p>
+                                엘리스 SW 트랙 부트캠프에서 진행한 팀 프로젝트입니다.
+                                "커피 마시러 마실 나가자!" 라는 주제로 사용자들에게 커피 주문 및 개개인의 "꿀조합"을 공유하는 커뮤니티 겸 판매 사이트를 제작하였습니다.
+                                약 3주간 진행하였으며 백엔드를 담당하였습니다.
+                            </p>
                         </Description>
                         <Description>
                             [ Tech Stack ]
-                            <p>Javascript, React, Node.js, Express, MongoDB</p>
+                            <p>Javascript, Node.js, Express, MongoDB, AWS</p>
                         </Description>
-                        <Link href="https://www.youtube.com" target="_blank">
+                        <Link href="https://github.com/JEONGSUJONG/project-masilcoffee" target="_blank">
                             &lt; 자세히보기 &gt;
                         </Link>
                     </Overlay>
