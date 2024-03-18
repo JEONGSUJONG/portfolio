@@ -1,40 +1,17 @@
 @font-face {
-  font-family: 'NanumBarunpen';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
-  font-weight: normal;
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'yg-jalnan';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-#Navbar {
-  font-family: "yg-jalnan";
-}
-
+html,
 body {
-  font-family: 'NanumBarunpen', sans-serif;
-  color: white;
-  background-color: black
-}
-
-.fixed-height {
-  height: auto;
-}
-
-html {
   scroll-behavior: smooth;
-}
-
-.text-box {
-  margin-left: 150px;
-  width: 800px;
-  height: auto;
-  padding: 25px;
+  font-family: "Pretendard-Regular", sans-serif;
+  color: black;
+  overflow-x: hidden;
 }
 
 .SMN_effect-24 a {
@@ -55,8 +32,8 @@ html {
   position: absolute;
   left: 0;
   top: 0;
-  border-top: 2px solid rgb(74, 222, 128);
-  border-left: 2px solid rgb(74, 222, 128);
+  border-top: 2px solid #3b82f6;
+  border-left: 2px solid #3b82f6;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
@@ -71,8 +48,8 @@ html {
   position: absolute;
   right: 0;
   bottom: 0;
-  border-right: 2px solid rgb(74, 222, 128);
-  border-bottom: 2px solid rgb(74, 222, 128);
+  border-right: 2px solid #3b82f6;
+  border-bottom: 2px solid #3b82f6;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
@@ -87,8 +64,8 @@ html {
   position: absolute;
   right: 0;
   top: 0;
-  border-right: 2px solid rgb(74, 222, 128);
-  border-top: 2px solid rgb(74, 222, 128);
+  border-right: 2px solid #3b82f6;
+  border-top: 2px solid #3b82f6;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
@@ -103,8 +80,8 @@ html {
   position: absolute;
   left: 0;
   bottom: 0;
-  border-left: 2px solid rgb(74, 222, 128);
-  border-bottom: 2px solid rgb(74, 222, 128);
+  border-left: 2px solid #3b82f6;
+  border-bottom: 2px solid #3b82f6;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   transition: 0.3s;
@@ -112,7 +89,7 @@ html {
 }
 
 .SMN_effect-24 a:hover {
-  color: rgb(74, 222, 128);
+  color: #3b82f6;
 }
 
 .SMN_effect-24 a:hover:before {
