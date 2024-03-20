@@ -19,43 +19,41 @@
 ## ⚙️ File Structure
 
 ```
-├─ public
-│   └─ ...
-├─ src
-│   ├─ Navbar
-│   ├─ pages
-│   │   ├─ AboutMe
-│   │	│	└─AboutMeComponents
-│   │	│	│	└─ ...
-│	│	│	└─ index.jsx
-│   │   ├─ Education
-│	│	│	├─ index.jsx
-│	│	│	└─ style.jsx
-│   │   ├─ Others
-│	│	│	├─ OthersComponents
-│   │	│	│	└─ ...
-│   │   │	└─ index.jsx
-│   │   ├─ Projects
-│	│	│	├─ ProjectsComponents
-│   │	│	│	├─ DetailProject
-|	│   │	│	│	└─ ...
-│   │	│	│	└─ Tag
-|	│   │	│	│	└─ ...
-│   │	│	│	├─ PersonalProjects.jsx
-│   │	│	│	├─ TeamProjects.jsx
-│   │	│	│	└─ style.jsx
-│   │   │	└─ index.jsx
-│   │   ├─ Projects
-│	│	│	├─ SkillsComponents
-│   │	│	│	└─ ...
-│   │   │	└─ index.jsx
-│   │	└─ Style
-|	│   │	└─ CommonStyle.jsx
-│   ├─ App.css
-│   ├─ App.jsx
-│   ├─ index.css
-│   └─ main.jsx
-└─ index.html
+├── public
+│   └── ...
+├── src
+│   ├── Navbar
+│   ├── pages
+│   │   ├── AboutMe
+│   │   │   └── AboutMeComponents
+│   │   │       └── ...
+│   │   │   └── index.jsx
+│   │   ├── Education
+│   │   │   ├── index.jsx
+│   │   │   └── style.jsx
+│   │   ├── Others
+│   │   │   ├── OthersComponents
+│   │   │   │   └── ...
+│   │   │   └── index.jsx
+│   │   ├── Projects
+│   │   │   ├── ProjectsComponents
+│   │   │   │   ├── DetailProject
+│   │   │   │   │   └── ...
+│   │   │   │   └── Tag
+│   │   │   │       └── ...
+│   │   │   ├── PersonalProjects.jsx
+│   │   │   ├── TeamProjects.jsx
+│   │   │   └── style.jsx
+│   │   ├── Skills
+│   │   │   └── SkillsComponents
+│   │   │       └── ...
+│   │   ├── Style
+│   │   │   └── CommonStyle.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+└── index.html
 ```
 
 <br>
