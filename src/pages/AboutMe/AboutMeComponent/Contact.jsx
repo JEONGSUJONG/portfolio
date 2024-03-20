@@ -62,6 +62,12 @@ const Contact = () => {
               </td>
               <td>1997 . 12 . 28</td>
             </tr>
+            <tr>
+              <td>
+                <span>Phone</span>
+              </td>
+              <td>010 - 9573 - 8038</td>
+            </tr>
           </tbody>
         </ST.Table>
       </ST.ContactContainer>
