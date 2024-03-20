@@ -8,16 +8,16 @@ export const Container = styled.div`
 export const Projects = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 2px;
+  gap: 50px;
 `;
 
 export const PerProject = styled.button`
   margin-top: 50px;
-  width: 33%;
+  width: 30%;
   img {
-    width: 95%;
+    width: 100%;
     height: 300px;
-    border: 1px solid black;
+    border: 1px solid gray;
   }
 
   h1 {

@@ -6,7 +6,7 @@ const Aboutme = () => {
     <>
       <ST.Title>ABOUT ME</ST.Title>
       <ST.InnerContainer>
-        <ST.Image src="/ME.jpg" alt="IT'S ME!" />
+        <ST.Image src="/assets/images/ME.jpg" alt="IT'S ME!" />
         <ST.Content className="ml-6">
           안녕하세요. NodeJS 백엔드 개발자{" "}
           <span className="font-bold">정수종</span>입니다. <br />
