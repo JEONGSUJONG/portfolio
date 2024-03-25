@@ -7,7 +7,7 @@ import Etc from "./SkillsComponent/Etc";
 const Skills = () => {
   return (
     <div>
-      <div className="text-blue-500 text-2xl font-bold mb-14">SKILLS</div>
+      <div className="text-blue-500 text-4xl font-bold mb-14">SKILLS</div>
       <div className="flex justify-between mb-4">
         <Backend />
         <Frontend />

@@ -16,14 +16,28 @@ export const Title = styled.div`
 export const InnerContainer = styled.div`
   display: flex;
   margin-left: 20px;
+
+  p {
+    text-align: start;
+    width: 80%;
+  }
+
+  span {
+    font-weight: bold;
+    text-decoration: underline;
+    color: ${CS.color.title};
+  }
+
+  a {
+    text-decoration: underline;
+  }
 `;
 
 export const Detail = styled.div`
-  width: 300px;
+  width: 15%;
   h2 {
     font-size: ${CS.fontSize.text_md};
     font-weight: bold;
-    padding-bottom: 5px;
   }
   p {
     color: ${CS.color.gray};

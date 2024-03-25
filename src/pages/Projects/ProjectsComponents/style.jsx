@@ -3,6 +3,7 @@ import * as CS from "../../Style/CommonStyle";
 
 export const Container = styled.div`
   margin-left: 20px;
+  margin-bottom: 100px;
 `;
 
 export const Projects = styled.div`
@@ -17,7 +18,7 @@ export const PerProject = styled.button`
   img {
     width: 100%;
     height: 300px;
-    border: 1px solid gray;
+    border: 1px solid black;
   }
 
   h1 {

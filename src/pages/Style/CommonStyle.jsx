@@ -10,6 +10,7 @@ export const color = {
 };
 
 export const fontSize = {
+  text_title: "36px", // text-4xl
   text_xl: "24px",
   text_lg: "20px",
   text_md: "16px",

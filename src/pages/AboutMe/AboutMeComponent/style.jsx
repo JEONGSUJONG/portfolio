@@ -3,7 +3,7 @@ import * as CS from "../../Style/CommonStyle";
 
 export const Title = styled.div`
   color: ${CS.color.title};
-  font-size: ${CS.fontSize.text_xl};
+  font-size: ${CS.fontSize.text_title};
   font-weight: bold;
   margin-bottom: 56px;
 `;

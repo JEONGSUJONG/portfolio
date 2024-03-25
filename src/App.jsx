@@ -5,6 +5,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Education from "./pages/Education";
 import Others from "./pages/Others";
+import Test from "./pages/Test";
 
 function App() {
   return (
@@ -34,6 +35,11 @@ function App() {
         <div id="Others">
           <div className="pt-[160px] mb-[100px]">
             <Others />
+          </div>
+        </div>
+        <div>
+          <div className="pt-[160px] mb-[100px]">
+            <Test />
           </div>
         </div>
       </main>

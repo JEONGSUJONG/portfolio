@@ -9,7 +9,6 @@ const PersonalProjects = () => {
       <ST.Projects>
         <Barrel />
         <Portfolio />
-        <Portfolio />
       </ST.Projects>
     </ST.Container>
   );

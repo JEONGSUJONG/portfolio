@@ -9,14 +9,14 @@ const Barrel = () => {
 
   return (
     <ST.PerProject onClick={handleClick}>
-      <img src="./test.png" alt="IT'S ME!" />
+      <img src="./bgbarrel.png" alt="IT'S ME!" />
       <h1>BARREL</h1>
-      <p>2023.10 ~ 2023.11</p>
+      <p>2024.02 ~ ing</p>
       <div className="mt-2 text-left h-[50px]">
         <Tag
           position={"fullstack"}
-          backend={["node.js", "express", "mongodb"]}
-          frontend={["react", "redux"]}
+          backend={["node.js", "express", "mongodb", "jwt"]}
+          frontend={["react", "vite", "axios", "redux", "tailwind"]}
         />
       </div>
     </ST.PerProject>

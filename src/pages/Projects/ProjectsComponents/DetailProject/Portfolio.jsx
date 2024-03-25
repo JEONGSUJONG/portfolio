@@ -9,11 +9,14 @@ const Portfolio = () => {
 
   return (
     <ST.PerProject onClick={handleClick}>
-      <img src="./test.png" alt="IT'S ME!" />
-      <h1>Portfolio</h1>
-      <p>2023.10 ~ 2023.11</p>
+      <img src="./bgportfolio.png" alt="IT'S ME!" />
+      <h1>포트폴리오</h1>
+      <p>2024.02 ~ 2024.03</p>
       <div className="mt-2 text-left h-[50px]">
-        <Tag position={"frontend"} frontend={["react", "redux"]} />
+        <Tag
+          position={"frontend"}
+          frontend={["react", "vite", "styledcomponet", "tailwind"]}
+        />
       </div>
     </ST.PerProject>
   );

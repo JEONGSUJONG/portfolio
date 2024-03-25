@@ -4,7 +4,7 @@ import * as ST from "./style";
 const Education = () => {
   return (
     <div>
-      <div className="text-blue-500 text-2xl font-bold mb-14">EDUCATION</div>
+      <div className="text-blue-500 text-4xl font-bold mb-14">EDUCATION</div>
       <ST.Container>
         <ST.InnerContainer>
           <ST.Detail>
