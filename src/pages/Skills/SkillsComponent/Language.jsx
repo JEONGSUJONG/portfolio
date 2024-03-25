@@ -40,13 +40,19 @@ const Language = () => {
               <td>
                 <span>Javascript</span>
               </td>
-              <td>Node.js가 작동하는 법에 대해 이해하고 있습니다.</td>
+              <td>
+                <p>Javascript를 활용하여 웹 애플리케이션을 개발합니다.</p>
+              </td>
             </tr>
             <tr>
               <td>
                 <span>Java</span>
               </td>
-              <td>Node.js가 작동하는 법에 대해 이해하고 있습니다.</td>
+              <td>
+                <p>
+                  Java를 주언어로 알고리즘 및 자료구조에 대한 이해를 위해 코딩 테스트를 준비하고 있으며 객체지향에 대한 이해도가 있습니다.
+                </p>
+              </td>
             </tr>
           </tbody>
         </ST.Table>

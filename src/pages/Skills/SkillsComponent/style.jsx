@@ -27,4 +27,8 @@ export const Table = styled.table`
     font-weight: bold;
     color: ${CS.color.darkblue};
   }
+
+  td p {
+    padding-left: 20px;
+  }
 `;

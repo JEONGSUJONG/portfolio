@@ -8,7 +8,7 @@ const Certification = () => {
       <ST.InnerContainer>
         <ST.Detail>
           <h2>CCNA</h2>
-          <p>2023.07 ~ 2023.11</p>
+          <p>2022.04 ~ 2025.04</p>
         </ST.Detail>
         <p>
           멋쟁이 사자처럼은 IT 교육을 위한 비영리 단체입니다. 각 대학 별

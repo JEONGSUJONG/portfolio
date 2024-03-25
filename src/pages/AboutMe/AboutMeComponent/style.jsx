@@ -19,8 +19,8 @@ export const ContactContainer = styled.div`
 
 export const Image = styled.img`
   border-radius: 0.5rem;
-  width: 132px;
-  height: auto;
+  width: 170px;
+  height: 190px;
 `;
 
 export const Content = styled.p`

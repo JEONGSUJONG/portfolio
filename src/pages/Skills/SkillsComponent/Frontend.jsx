@@ -40,19 +40,34 @@ const FrontEnd = () => {
               <td>
                 <span>React</span>
               </td>
-              <td>Node.js가 작동하는 법에 대해 이해하고 있습니다.</td>
+              <td>
+                <p>
+                  React를 사용하여 동적이고 효율적인 사용자 인터페이스를 개발할
+                  수 있습니다.
+                </p>
+              </td>
             </tr>
             <tr>
               <td>
                 <span>Redux</span>
               </td>
-              <td>Node.js가 작동하는 법에 대해 이해하고 있습니다.</td>
+              <td>
+                <p>
+                  Redux를 통해 애플리케이션 상태를 효율적으로 관리하고 상태
+                  변화를 추적할 수 있습니다.
+                </p>
+              </td>
             </tr>
             <tr>
               <td>
-                <span>Css</span>
+                <span>CSS</span>
               </td>
-              <td>Node.js가 작동하는 법에 대해 이해하고 있습니다.</td>
+              <td>
+                <p>
+                  tailwind 및 styledcomponent를 사용하여 웹 페이지를 디자인하고
+                  스타일링할 수 있습니다.
+                </p>
+              </td>
             </tr>
           </tbody>
         </ST.Table>

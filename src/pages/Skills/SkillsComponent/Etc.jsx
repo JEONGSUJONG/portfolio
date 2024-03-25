@@ -40,25 +40,43 @@ const Etc = () => {
               <td>
                 <span>Git</span>
               </td>
-              <td>Node.js가 작동하는 법에 대해 이해하고 있습니다.</td>
+              <td>
+                <p>
+                  Git을 사용하여 버전 관리를 하고 협업 프로젝트를 관리합니다.
+                </p>
+              </td>
             </tr>
             <tr>
               <td>
                 <span>Pm2</span>
               </td>
-              <td>Node.js가 작동하는 법에 대해 이해하고 있습니다.</td>
+              <td>
+                <p>
+                  Pm2를 사용하여 Node.js 어플리케이션을 관리하고 프로세스를
+                  관리합니다.
+                </p>
+              </td>
             </tr>
             <tr>
               <td>
                 <span>MongoDB</span>
               </td>
-              <td>Node.js가 작동하는 법에 대해 이해하고 있습니다.</td>
+              <td>
+                <p>
+                  MongoDB를 사용하여 NoSQL 데이터베이스를 설계하고 조작합니다.
+                </p>
+              </td>
             </tr>
             <tr>
               <td>
                 <span>Postman / Swagger</span>
               </td>
-              <td>Node.js가 작동하는 법에 대해 이해하고 있습니다.</td>
+              <td>
+                <p>
+                  Postman 또는 Swagger를 사용하여 API 엔드포인트를 테스트하고
+                  문서화합니다.
+                </p>
+              </td>
             </tr>
           </tbody>
         </ST.Table>
